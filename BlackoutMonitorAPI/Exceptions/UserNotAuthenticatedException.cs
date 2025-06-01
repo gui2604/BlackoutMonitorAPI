@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BlackoutMonitorAPI.Exceptions
+﻿namespace BlackoutMonitorAPI.Exceptions
 {
     public class UserNotAuthenticatedException : Exception
     {

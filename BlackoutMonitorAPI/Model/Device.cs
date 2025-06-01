@@ -1,5 +1,4 @@
-﻿using BlackoutMonitorAPI.Model;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlackoutMonitorAPI.Model
@@ -10,10 +9,11 @@ namespace BlackoutMonitorAPI.Model
         public int Id { get; set; }
 
         [Required]
-        public string Identifier { get; set; }
+        public required string Identifier { get; set; }
 
-        [ForeignKey("Region")]
         public int RegionId { get; set; }
-        public Region Region { get; set; }
+
+        [ForeignKey("RegionId")]
+        public Region? Region { get; set; }
     }
 }

@@ -9,5 +9,6 @@ namespace BlackoutMonitorAPI.Dto
 
         [Required]
         public int RegionId { get; set; }
+        public int? DeviceId { get; set; } 
     }
 }

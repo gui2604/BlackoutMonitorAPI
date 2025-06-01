@@ -1,5 +1,5 @@
 ﻿using BlackoutMonitorAPI.Data;
-using BlackoutMonitorAPI.DTOs;
+using BlackoutMonitorAPI.Dto;
 using BlackoutMonitorAPI.Model;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -42,7 +42,7 @@ namespace BlackoutMonitorAPI.Service
         public async Task<string> LoginAsync(UserLoginDto dto)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
-            if (user == null)
+            if (user is null)
                 throw new Exception("Usuário não encontrado");
 
             var result = _hasher.VerifyHashedPassword(user, user.PasswordHash, dto.Password);

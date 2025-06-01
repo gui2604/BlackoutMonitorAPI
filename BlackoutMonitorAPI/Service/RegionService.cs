@@ -2,7 +2,6 @@
 using BlackoutMonitorAPI.Dto;
 using BlackoutMonitorAPI.Model;
 using Microsoft.EntityFrameworkCore;
-using System.Text.Json;
 
 namespace BlackoutMonitorAPI.Service
 {

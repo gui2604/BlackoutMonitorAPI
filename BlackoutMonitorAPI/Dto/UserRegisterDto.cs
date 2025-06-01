@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlackoutMonitorAPI.DTOs
+namespace BlackoutMonitorAPI.Dto
 {
     public class UserRegisterDto
     {

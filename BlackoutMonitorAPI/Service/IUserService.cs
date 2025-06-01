@@ -1,4 +1,4 @@
-﻿using BlackoutMonitorAPI.DTOs;
+﻿using BlackoutMonitorAPI.Dto;
 using BlackoutMonitorAPI.Model;
 
 namespace BlackoutMonitorAPI.Service

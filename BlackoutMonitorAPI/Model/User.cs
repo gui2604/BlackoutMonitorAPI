@@ -9,10 +9,10 @@ namespace BlackoutMonitorAPI.Model
 
         [Required]
         [EmailAddress]
-        public string Email { get; set; }
+        public required string Email { get; set; }
 
         [Required]
-        public string PasswordHash { get; set; }
+        public required string PasswordHash { get; set; }
 
         public string Role { get; set; } = "User";
     }

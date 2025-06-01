@@ -16,7 +16,6 @@ namespace BlackoutMonitorAPI.Controller
             _context = context;
         }
 
-        // Rota pública (sem autenticação)
         [HttpGet]
         [AllowAnonymous]
         public IActionResult BasicCheck()
@@ -28,7 +27,6 @@ namespace BlackoutMonitorAPI.Controller
             });
         }
 
-        // Rota protegida (com autenticação JWT)
         [HttpGet("full")]
         [Authorize]
         public async Task<IActionResult> FullCheck()

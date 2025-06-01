@@ -1,11 +1,11 @@
-﻿using BlackoutMonitorAPI.DTOs;
+﻿using BlackoutMonitorAPI.Dto;
 using BlackoutMonitorAPI.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlackoutMonitorAPI.Controller
 {
     [ApiController]
-    [Route("api/auth")]
+    [Route("api/auth")]   
     public class AuthController : ControllerBase
     {
         private readonly IUserService _userService;

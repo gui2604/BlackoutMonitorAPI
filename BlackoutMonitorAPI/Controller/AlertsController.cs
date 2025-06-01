@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
-namespace BlackoutMonitorAPI.Controllers
+namespace BlackoutMonitorAPI.Controller
 {
     [Authorize]
     [ApiController]
@@ -27,11 +27,18 @@ namespace BlackoutMonitorAPI.Controllers
         public async Task<IActionResult> CreateAlert([FromBody] AlertCreateDto dto)
         {
             var region = await _context.Regions.FindAsync(dto.RegionId);
-            if (region == null)
+            if (region is null)
                 throw new RegionNotFoundException(dto.RegionId);
 
+            if (dto.DeviceId.HasValue)
+            {
+                var deviceExists = await _context.Devices.AnyAsync(d => d.Id == dto.DeviceId);
+                if (!deviceExists)
+                    return NotFound(new { error = "Dispositivo informado não existe." });
+            }
+
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
-            if (userIdClaim == null)
+            if (userIdClaim is null)
                 throw new UserNotAuthenticatedException();
 
             int userId = int.Parse(userIdClaim.Value);
@@ -40,6 +47,7 @@ namespace BlackoutMonitorAPI.Controllers
             {
                 Message = dto.Message,
                 RegionId = dto.RegionId,
+                DeviceId = dto.DeviceId,
                 UserId = userId
             };
 

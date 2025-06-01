@@ -1,12 +1,11 @@
-using BlackoutMonitorAPI.Service;
 using BlackoutMonitorAPI.Data;
-using Microsoft.EntityFrameworkCore;
+using BlackoutMonitorAPI.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +16,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BlackoutMonitor API", Version = "v1" });
+    c.SwaggerDoc("v1", new() { Title = "Blackout Monitor API", Version = "v1" });
+
+    // Agrupa as actions por GroupName definido em ApiExplorerSettings
+    c.DocInclusionPredicate((docName, apiDesc) =>
+    {
+        var groupName = apiDesc.ActionDescriptor?.EndpointMetadata
+            .OfType<ApiExplorerSettingsAttribute>()
+            .FirstOrDefault()?.GroupName;
+
+        return string.IsNullOrEmpty(groupName) || groupName == docName;
+    });
 
     // Adiciona suporte para JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -87,7 +96,7 @@ app.UseAuthorization();
 app.UseHttpsRedirection();
 
 app.MapControllers();
-
+Console.WriteLine("Ambiente atual: " + app.Environment.EnvironmentName);
 app.Run();
 
 
