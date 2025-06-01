@@ -8,7 +8,7 @@
 ## 📄 Swagger:
 	- http://localhost:7116/swagger
 
-# 🔌 Blackout Monitor API
+# 🖥️  Blackout Monitor API
 
 API RESTful desenvolvida em ASP.NET Core 8 para **monitoramento de falhas de energia elétrica** em regiões de vulnerabilidade social. O sistema permite registrar alertas, associar dispositivos a regiões, gerar relatórios e autenticar usuários via JWT.
 
