@@ -1,4 +1,4 @@
-﻿# BlackoutMonitorAPI
+﻿# BlackoutMonitorAPI - C# Software Development
 
 ## 🚀 3ESPV - Engenharia de Software 3º Ano - Global Solution 🖥️
 ### 🧑‍💻 Guilherme Barreto Santos - RM97674
@@ -48,7 +48,7 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 - C#
 
 ---
-
+```bash
 ## 🧬 Estrutura de pastas
 BlackoutMonitorAPI/
 ├── Controller/
@@ -84,7 +84,7 @@ BlackoutMonitorAPI/
 ├── appsettings.json
 ├── blackout.db
 └── README.md
-
+```
 
 ---
 
