@@ -9,7 +9,7 @@ namespace BlackoutMonitorAPI.Controller
 {
     [Authorize]
     [ApiController]
-    [Route("api/devices")]
+    [Route("api/v1/devices")]
     public class DevicesController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

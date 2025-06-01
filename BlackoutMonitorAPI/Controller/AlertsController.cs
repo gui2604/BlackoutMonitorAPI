@@ -11,7 +11,7 @@ namespace BlackoutMonitorAPI.Controller
 {
     [Authorize]
     [ApiController]
-    [Route("api/alerts")]
+    [Route("api/v1/alerts")]
     public class AlertsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

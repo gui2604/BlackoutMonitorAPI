@@ -1,10 +1,25 @@
-﻿- Guilherme Barreto Santos RM
+﻿# BlackoutMonitorAPI
 
+## 🚀 3ESPV - Engenharia de Software 3º Ano - Global Solution 🖥️
+### 🧑‍💻 Guilherme Barreto Santos - RM97674
+### 🧑‍💻 Mateus Iago Sousa Conceição - RM550270
+### 🧑‍💻 Nicolas Oliveira da Silva - RM98939 
+
+## 📄 Swagger:
+	- http://localhost:7116
 
 # 🔌 Blackout Monitor API
 
 API RESTful desenvolvida em ASP.NET Core 8 para **monitoramento de falhas de energia elétrica** em regiões de vulnerabilidade social. O sistema permite registrar alertas, associar dispositivos a regiões, gerar relatórios e autenticar usuários via JWT.
 
+## 💡 Sobre o Projeto
+O Blackout Monitor é uma solução voltada para o monitoramento de quedas de energia elétrica em comunidades com maior vulnerabilidade social, buscando oferecer respostas rápidas e eficazes a esse tipo de incidente. A proposta visa reduzir o tempo de exposição ao risco causado por falhas de energia, que impactam diretamente a segurança, saúde e comunicação das populações afetadas.
+
+Do ponto de vista de cibersegurança, quedas de energia representam uma ameaça crítica: podem interromper sistemas de vigilância, alarmes de segurança, redes de comunicação e servidores de dados sensíveis, deixando áreas inteiras suscetíveis a invasões físicas, vazamento de informações ou paralisação de serviços essenciais. Em cenários urbanos mais carentes, essa exposição é agravada pela ausência de infraestrutura de backup.
+
+Para mitigar esse impacto, a solução propõe o uso de dispositivos IoT com sensores de luminosidade e corrente elétrica distribuídos por essas regiões, que coletam dados periodicamente e os transmitem a um servidor. Esse servidor, agora implementado em C# (ASP.NET Core 8), oferece uma API segura com autenticação JWT, registro de alertas, gerenciamento de dispositivos e geração de relatórios. O armazenamento dos dados é feito com o Entity Framework Core e SQLite, garantindo persistência local e leveza para ambientes mais restritos.
+
+Esses dados podem ser acessados por aplicativos móveis ou painéis administrativos, possibilitando análises preditivas e rápidas notificações. Com isso, é possível minimizar o tempo de resposta, fortalecer a infraestrutura digital nas comunidades e reduzir os riscos cibernéticos associados a interrupções de energia.
 ---
 
 ## ✅ Funcionalidades principais
@@ -120,3 +135,4 @@ BlackoutMonitorAPI/
 
 - Cole o token:
 - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+

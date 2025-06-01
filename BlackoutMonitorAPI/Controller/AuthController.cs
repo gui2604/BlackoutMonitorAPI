@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BlackoutMonitorAPI.Controller
 {
     [ApiController]
-    [Route("api/auth")]   
+    [Route("api/v1/auth")]   
     public class AuthController : ControllerBase
     {
         private readonly IUserService _userService;

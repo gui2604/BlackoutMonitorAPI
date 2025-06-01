@@ -26,6 +26,8 @@ EXPOSE 8080
 
 # Variável de ambiente opcional (para modo dev)
 ENV ASPNETCORE_URLS=http://+:8080
+#ENV ASPNETCORE_ENVIRONMENT=Development
+
 
 # Executa a aplicação
 ENTRYPOINT ["dotnet", "BlackoutMonitorAPI.dll"]

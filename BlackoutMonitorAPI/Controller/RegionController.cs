@@ -7,7 +7,7 @@ namespace BlackoutMonitorAPI.Controller
 {
     [Authorize]
     [ApiController]
-    [Route("api/region")]
+    [Route("api/v1/region")]
     public class RegionController : ControllerBase
     {
         private readonly IRegionService _regionService;
