@@ -122,14 +122,15 @@ BlackoutMonitorAPI/
 - GET /api/healthcheck – Health check público
 
 ## 🔐 Endpoints protegidos (requer token)
-- Gerenciamento de Regiões, alertas, dispositivos e relatórios
+- Gerenciamento de Regiões, alertas, dispositivos e relatórios (não expostos para fins de segurança)
 
 ## 🧪 Teste no Swagger
+```bash
 - 1. Faça login em /api/auth/login
 	1.1 Utilize as credenciais:
 		Email: professor@fiap.com.br
 		Senha: 12345678
-
+```
 - 2. Copie o token retornado
 
 - 3. Clique em Authorize no canto superior direito do Swagger
