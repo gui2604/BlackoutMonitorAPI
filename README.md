@@ -6,7 +6,7 @@
 ### 🧑‍💻 Nicolas Oliveira da Silva - RM98939 
 
 ## 📄 Swagger:
-	- http://localhost:7116
+	- http://localhost:7116/swagger
 
 # 🔌 Blackout Monitor API
 
