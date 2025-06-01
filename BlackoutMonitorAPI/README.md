@@ -1,4 +1,4 @@
-﻿# BlackoutMonitorAPI
+﻿# BlackoutMonitorAPI - C# Software Development
 
 ## 🚀 3ESPV - Engenharia de Software 3º Ano - Global Solution 🖥️
 ### 🧑‍💻 Guilherme Barreto Santos - RM97674
@@ -6,9 +6,9 @@
 ### 🧑‍💻 Nicolas Oliveira da Silva - RM98939 
 
 ## 📄 Swagger:
-	- http://localhost:7116
+	- http://localhost:7116/swagger
 
-# 🔌 Blackout Monitor API
+# 🖥️  Blackout Monitor API
 
 API RESTful desenvolvida em ASP.NET Core 8 para **monitoramento de falhas de energia elétrica** em regiões de vulnerabilidade social. O sistema permite registrar alertas, associar dispositivos a regiões, gerar relatórios e autenticar usuários via JWT.
 
@@ -20,6 +20,58 @@ Do ponto de vista de cibersegurança, quedas de energia representam uma ameaça 
 Para mitigar esse impacto, a solução propõe o uso de dispositivos IoT com sensores de luminosidade e corrente elétrica distribuídos por essas regiões, que coletam dados periodicamente e os transmitem a um servidor. Esse servidor, agora implementado em C# (ASP.NET Core 8), oferece uma API segura com autenticação JWT, registro de alertas, gerenciamento de dispositivos e geração de relatórios. O armazenamento dos dados é feito com o Entity Framework Core e SQLite, garantindo persistência local e leveza para ambientes mais restritos.
 
 Esses dados podem ser acessados por aplicativos móveis ou painéis administrativos, possibilitando análises preditivas e rápidas notificações. Com isso, é possível minimizar o tempo de resposta, fortalecer a infraestrutura digital nas comunidades e reduzir os riscos cibernéticos associados a interrupções de energia.
+
+---
+
+## ✅ Requisitos do Sistema
+```bash
+🔹 Requisitos Funcionais
+✔️ Cadastro e consulta de regiões associadas aos dispositivos.
+✔️ Registro de alertas manualmente ou via sensores.
+✔️ Gerenciamento de usuários com autenticação JWT.
+✔️ Gerenciamento de dispositivos IoT vinculados às regiões.
+✔️ Geração de relatórios sobre alertas registrados.
+✔️ Monitoramento contínuo da infraestrutura com health check.
+✔️ Proteção das rotas sensíveis com [Authorize].
+
+🔹 Requisitos Não Funcionais
+✔️ Desempenho otimizado com requisições assíncronas.
+✔️ Segurança de acessos e do fluxo dos dados.
+✔️ Escalabilidade, permitindo fácil expansão do sistema.
+✔️ Armazenamento leve e eficiente.
+✔️ Tolerância a falhas, garantindo robustez na aplicação.
+✔️ Código modular, facilitando manutenção e extensões futuras.
+```
+
+---
+
+## 🔄 Regras de Negócio
+```bash
+🚨 Gestão de Alertas
+- Alertas podem ser registrados manualmente.
+- Cada alerta deve estar associado a uma região cadastrada.
+- O sistema pode gerar relatórios de ocorrências e identificar padrões críticos.
+🔐 Controle de Usuários
+- Apenas usuários autenticados podem ter acesso às funcionalidades de cadastro e consulta.
+- Administradores têm acesso a relatórios e gestão de dispositivos.
+📡 Gerenciamento de Dispositivos
+- Cada dispositivo IoT deve ser vinculado a uma região específica de monitoramento.
+- Os dispositivos enviam dados automaticamente para análise e resposta rápida.
+```
+
+---
+
+## 🧩 Fluxogramas do Sistema
+```bash
+🚀 O sistema segue um fluxo estruturado para o registro e processamento de alertas:
+1️º Recebimento de alerta via API ou dispositivo IoT
+2️º Validação do alerta e associação à região correspondente
+3️º Armazenamento no banco de dados de informações do alerta e da região
+4️º Envio de notificações para sistemas conectados
+5️º Geração de relatórios e análise de padrões, como resumo de todos os dispositivos e alertas configurados.
+
+```
+
 ---
 
 ## ✅ Funcionalidades principais
@@ -47,8 +99,8 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 - C#
 
 ---
-
-## 🧬 Estrutura de pastas
+## 📁 Estrutura de pastas
+```bash
 BlackoutMonitorAPI/
 ├── Controller/
 │ ├── AlertsController.cs
@@ -83,7 +135,7 @@ BlackoutMonitorAPI/
 ├── appsettings.json
 ├── blackout.db
 └── README.md
-
+```
 
 ---
 
@@ -112,6 +164,8 @@ BlackoutMonitorAPI/
 	https://localhost:7116/swagger
    ```
 
+---
+
 ## 🔐 Autenticação JWT
 ### 📌 Endpoints públicos
 - POST /api/auth/register – Cria novo usuário
@@ -121,21 +175,26 @@ BlackoutMonitorAPI/
 - GET /api/healthcheck – Health check público
 
 ## 🔐 Endpoints protegidos (requer token)
-- Gerenciamento de Regiões, alertas, dispositivos e relatórios
+- Gerenciamento de Regiões, alertas, dispositivos e relatórios (não expostos para fins de segurança)
+
+---
 
 ## 🧪 Teste no Swagger
+```bash
 - 1. Faça login em /api/auth/login
 	1.1 Utilize as credenciais:
 		Email: professor@fiap.com.br
 		Senha: 12345678
-
 - 2. Copie o token retornado
 
 - 3. Clique em Authorize no canto superior direito do Swagger
 
 - Cole o token:
 - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
 
-🐳 Executando com Docker
+---
+
+## 🐳 Executando com Docker
 - docker pull gui2604/blackoutmonitorapi:1.0.0
 - docker run --name container-blackoutmonitorapi -p 8080:8080 gui2604/blackoutmonitorapi:v1.0.0

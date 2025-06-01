@@ -23,6 +23,57 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 
 ---
 
+## ✅ Requisitos do Sistema
+```bash
+🔹 Requisitos Funcionais
+✔️ Cadastro e consulta de regiões associadas aos dispositivos.
+✔️ Registro de alertas manualmente ou via sensores.
+✔️ Gerenciamento de usuários com autenticação JWT.
+✔️ Gerenciamento de dispositivos IoT vinculados às regiões.
+✔️ Geração de relatórios sobre alertas registrados.
+✔️ Monitoramento contínuo da infraestrutura com health check.
+✔️ Proteção das rotas sensíveis com [Authorize].
+
+🔹 Requisitos Não Funcionais
+✔️ Desempenho otimizado com requisições assíncronas.
+✔️ Segurança de acessos e do fluxo dos dados.
+✔️ Escalabilidade, permitindo fácil expansão do sistema.
+✔️ Armazenamento leve e eficiente.
+✔️ Tolerância a falhas, garantindo robustez na aplicação.
+✔️ Código modular, facilitando manutenção e extensões futuras.
+```
+
+---
+
+## 🔄 Regras de Negócio
+```bash
+🚨 Gestão de Alertas
+- Alertas podem ser registrados manualmente.
+- Cada alerta deve estar associado a uma região cadastrada.
+- O sistema pode gerar relatórios de ocorrências e identificar padrões críticos.
+🔐 Controle de Usuários
+- Apenas usuários autenticados podem ter acesso às funcionalidades de cadastro e consulta.
+- Administradores têm acesso a relatórios e gestão de dispositivos.
+📡 Gerenciamento de Dispositivos
+- Cada dispositivo IoT deve ser vinculado a uma região específica de monitoramento.
+- Os dispositivos enviam dados automaticamente para análise e resposta rápida.
+```
+
+---
+
+## 🧩 Fluxogramas do Sistema
+```bash
+🚀 O sistema segue um fluxo estruturado para o registro e processamento de alertas:
+1️º Recebimento de alerta via API ou dispositivo IoT
+2️º Validação do alerta e associação à região correspondente
+3️º Armazenamento no banco de dados de informações do alerta e da região
+4️º Envio de notificações para sistemas conectados
+5️º Geração de relatórios e análise de padrões, como resumo de todos os dispositivos e alertas configurados.
+
+```
+
+---
+
 ## ✅ Funcionalidades principais
 
 - 📍 Cadastro e consulta online ou cache de **regiões** por CEP (utilizando o serviço ViaCEP)
@@ -113,6 +164,8 @@ BlackoutMonitorAPI/
 	https://localhost:7116/swagger
    ```
 
+---
+
 ## 🔐 Autenticação JWT
 ### 📌 Endpoints públicos
 - POST /api/auth/register – Cria novo usuário
@@ -123,6 +176,8 @@ BlackoutMonitorAPI/
 
 ## 🔐 Endpoints protegidos (requer token)
 - Gerenciamento de Regiões, alertas, dispositivos e relatórios (não expostos para fins de segurança)
+
+---
 
 ## 🧪 Teste no Swagger
 ```bash
@@ -137,6 +192,8 @@ BlackoutMonitorAPI/
 - Cole o token:
 - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
+
+---
 
 ## 🐳 Executando com Docker
 - docker pull gui2604/blackoutmonitorapi:1.0.0
