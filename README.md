@@ -48,7 +48,7 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 - C#
 
 ---
-## 🧬 Estrutura de pastas
+## 📁 Estrutura de pastas
 ```bash
 BlackoutMonitorAPI/
 ├── Controller/
