@@ -20,6 +20,7 @@ Do ponto de vista de cibersegurança, quedas de energia representam uma ameaça 
 Para mitigar esse impacto, a solução propõe o uso de dispositivos IoT com sensores de luminosidade e corrente elétrica distribuídos por essas regiões, que coletam dados periodicamente e os transmitem a um servidor. Esse servidor, agora implementado em C# (ASP.NET Core 8), oferece uma API segura com autenticação JWT, registro de alertas, gerenciamento de dispositivos e geração de relatórios. O armazenamento dos dados é feito com o Entity Framework Core e SQLite, garantindo persistência local e leveza para ambientes mais restritos.
 
 Esses dados podem ser acessados por aplicativos móveis ou painéis administrativos, possibilitando análises preditivas e rápidas notificações. Com isso, é possível minimizar o tempo de resposta, fortalecer a infraestrutura digital nas comunidades e reduzir os riscos cibernéticos associados a interrupções de energia.
+
 ---
 
 ## ✅ Funcionalidades principais
