@@ -1,0 +1,6 @@
+@BlackoutMonitorAPI_HostAddress = http://localhost:5290
+
+GET {{BlackoutMonitorAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

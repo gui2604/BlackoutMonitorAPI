@@ -1,0 +1,42 @@
+## Compiled files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db-shm
+*.db-wal
+
+## Logs
+*.log
+Logs/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VSCode / VS
+.idea/
+.vscode/
+.vs/
+
+## EF Core migrations snapshot
+Migrations/*ModelSnapshot.cs
+
+## SQLite DB file (opcional)
+#*.db
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+packages/
+project.lock.json
+
+## Swagger auto-gen
+swagger/

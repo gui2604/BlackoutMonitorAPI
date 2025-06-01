@@ -1,0 +1,492 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\blackoutmonitorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\blackoutmonitorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\model\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\model\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\dto\\alertcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\dto\\alertcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\dto\\viacepresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\dto\\viacepresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\controller\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\controller\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\exceptions\\regionnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\exceptions\\regionnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\exceptions\\databaseunavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\exceptions\\databaseunavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\exceptions\\alertcreationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\exceptions\\alertcreationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\exceptions\\usernotauthenticatedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\exceptions\\usernotauthenticatedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\service\\iregionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\service\\iregionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\service\\regionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\service\\regionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\controller\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\controller\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\controller\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\controller\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\model\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\model\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\model\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\model\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\blackoutmonitorapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\blackoutmonitorapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|c:\\users\\guilh\\source\\repos\\blackoutmonitorapi\\blackoutmonitorapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7BFB49E-647D-4D72-83F5-145971D54300}|BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj|solutionrelative:blackoutmonitorapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\.gitignore",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\.gitignore",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\.gitignore",
+              "RelativeToolTip": "BlackoutMonitorAPI\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-01T01:47:41.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Exceptions\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Exceptions\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:13:18.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlertsController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\AlertsController.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Controller\\AlertsController.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\AlertsController.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Controller\\AlertsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvzoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:42:21.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Dto\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\UserLoginDto.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Dto\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:00:46.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlertCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\AlertCreateDto.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Dto\\AlertCreateDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\AlertCreateDto.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Dto\\AlertCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:41:55.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Dto\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\UserRegisterDto.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Dto\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:00:27.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViaCepResponse.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\ViaCepResponse.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Dto\\ViaCepResponse.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Dto\\ViaCepResponse.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Dto\\ViaCepResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:17:19.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Region.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Model\\Region.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Region.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Model\\Region.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAywBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:15:56.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\UserService.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Service\\UserService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIA0wEUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:03:05.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlackoutMonitorAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "RelativeToolTip": "BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:03:40.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegionNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\RegionNotFoundException.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Exceptions\\RegionNotFoundException.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\RegionNotFoundException.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Exceptions\\RegionNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:09:02.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseUnavailableException.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\DatabaseUnavailableException.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Exceptions\\DatabaseUnavailableException.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\DatabaseUnavailableException.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Exceptions\\DatabaseUnavailableException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T00:54:27.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AlertCreationException.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\AlertCreationException.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Exceptions\\AlertCreationException.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\AlertCreationException.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Exceptions\\AlertCreationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:09:38.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserNotAuthenticatedException.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\UserNotAuthenticatedException.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Exceptions\\UserNotAuthenticatedException.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Exceptions\\UserNotAuthenticatedException.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Exceptions\\UserNotAuthenticatedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:09:16.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRegionService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\IRegionService.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Service\\IRegionService.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\IRegionService.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Service\\IRegionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:20:38.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\IUserService.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Service\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:02:31.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegionService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\RegionService.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Service\\RegionService.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Service\\RegionService.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Service\\RegionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:21:42.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\HealthController.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Controller\\HealthController.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\HealthController.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Controller\\HealthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T18:07:55.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\AuthController.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:05:57.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\RegionController.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Controller\\RegionController.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Controller\\RegionController.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Controller\\RegionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:25:00.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:06:30.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\User.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\User.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:55:02.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Device.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Model\\Device.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Device.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Model\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:09:22.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Alert.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Model\\Alert.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Model\\Alert.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Model\\Alert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:41:15.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Program.cs",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:48:05.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlackoutMonitorAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-31T15:02:47.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\appsettings.json",
+              "RelativeToolTip": "BlackoutMonitorAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-31T15:02:29.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BlackoutMonitorAPI",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "RelativeToolTip": "BlackoutMonitorAPI\\BlackoutMonitorAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:02:50.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BlackoutMonitorAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\BlackoutMonitorAPI\\BlackoutMonitorAPI\\appsettings.Development.json",
+              "RelativeToolTip": "BlackoutMonitorAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-31T15:02:31.653Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
