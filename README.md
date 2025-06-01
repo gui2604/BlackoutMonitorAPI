@@ -130,10 +130,10 @@ BlackoutMonitorAPI/
 	1.1 Utilize as credenciais:
 		Email: professor@fiap.com.br
 		Senha: 12345678
-```
 - 2. Copie o token retornado
 
 - 3. Clique em Authorize no canto superior direito do Swagger
+```
 
 - Cole o token:
 - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
