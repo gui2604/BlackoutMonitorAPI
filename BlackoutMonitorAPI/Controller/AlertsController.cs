@@ -12,23 +12,15 @@ namespace BlackoutMonitorAPI.Controller
     [Authorize]
     [ApiController]
     [Route("api/v1/alerts")]
-    public class AlertsController : ControllerBase
+    public class AlertsController(ApplicationDbContext context, ILogger<AlertsController> logger) : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        private readonly ILogger<AlertsController> _logger;
-
-        public AlertsController(ApplicationDbContext context, ILogger<AlertsController> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly ApplicationDbContext _context = context;
+        private readonly ILogger<AlertsController> _logger = logger;
 
         [HttpPost]
         public async Task<IActionResult> CreateAlert([FromBody] AlertCreateDto dto)
         {
-            var region = await _context.Regions.FindAsync(dto.RegionId);
-            if (region is null)
-                throw new RegionNotFoundException(dto.RegionId);
+            var region = await _context.Regions.FindAsync(dto.RegionId) ?? throw new RegionNotFoundException(dto.RegionId);
 
             if (dto.DeviceId.HasValue)
             {
@@ -37,9 +29,7 @@ namespace BlackoutMonitorAPI.Controller
                     return NotFound(new { error = "Dispositivo informado não existe." });
             }
 
-            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
-            if (userIdClaim is null)
-                throw new UserNotAuthenticatedException();
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier) ?? throw new UserNotAuthenticatedException();
 
             int userId = int.Parse(userIdClaim.Value);
 
@@ -58,8 +48,6 @@ namespace BlackoutMonitorAPI.Controller
 
             return Ok(alert);
         }
-
-
 
         [HttpGet("report")]
         public async Task<IActionResult> GetReport()

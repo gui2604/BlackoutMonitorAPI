@@ -8,14 +8,9 @@ namespace BlackoutMonitorAPI.Controller
     [Authorize]
     [ApiController]
     [Route("api/v1/region")]
-    public class RegionController : ControllerBase
+    public class RegionController(IRegionService regionService) : ControllerBase
     {
-        private readonly IRegionService _regionService;
-
-        public RegionController(IRegionService regionService)
-        {
-            _regionService = regionService;
-        }
+        private readonly IRegionService _regionService = regionService;
 
         [HttpGet]
         public async Task<ActionResult<Region>> GetByCep([FromQuery] string cep)

@@ -10,16 +10,10 @@ namespace BlackoutMonitorAPI.Controller
     [Authorize]
     [ApiController]
     [Route("api/v1/devices")]
-    public class DevicesController : ControllerBase
+    public class DevicesController(ApplicationDbContext context, ILogger<DevicesController> logger) : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        private readonly ILogger<DevicesController> _logger;
-
-        public DevicesController(ApplicationDbContext context, ILogger<DevicesController> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly ApplicationDbContext _context = context;
+        private readonly ILogger<DevicesController> _logger = logger;
 
         [HttpPost]
         public async Task<IActionResult> CreateDevice([FromBody] DeviceCreateDto dto)
@@ -85,19 +79,19 @@ namespace BlackoutMonitorAPI.Controller
         }
 
         [HttpDelete("{id}")]
-public async Task<IActionResult> DeleteDevice(int id)
-{
-    var device = await _context.Devices.FindAsync(id);
-    if (device == null)
-        return NotFound(new { error = "Dispositivo não encontrado" });
-
-    _context.Devices.Remove(device);
-    await _context.SaveChangesAsync();
-
-    _logger.LogInformation("Dispositivo ID={Id} removido.", id);
-
-    return NoContent(); // HTTP 204
-}
-
-    }
+        public async Task<IActionResult> DeleteDevice(int id)
+        {
+            var device = await _context.Devices.FindAsync(id);
+            if (device == null)
+                return NotFound(new { error = "Dispositivo não encontrado" });
+        
+            _context.Devices.Remove(device);
+            await _context.SaveChangesAsync();
+        
+            _logger.LogInformation("Dispositivo ID={Id} removido.", id);
+        
+            return NoContent(); // HTTP 204
+        }
+        
+            }
 }

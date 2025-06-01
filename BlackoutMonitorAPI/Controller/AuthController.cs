@@ -6,14 +6,9 @@ namespace BlackoutMonitorAPI.Controller
 {
     [ApiController]
     [Route("api/v1/auth")]   
-    public class AuthController : ControllerBase
+    public class AuthController(IUserService userService) : ControllerBase
     {
-        private readonly IUserService _userService;
-
-        public AuthController(IUserService userService)
-        {
-            _userService = userService;
-        }
+        private readonly IUserService _userService = userService;
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserRegisterDto dto)

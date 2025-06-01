@@ -1,4 +1,4 @@
-﻿# BlackoutMonitorAPI - C# Software Development
+﻿﻿# BlackoutMonitorAPI - C# Software Development
 
 ## 🚀 3ESPV - Engenharia de Software 3º Ano - Global Solution 🖥️
 ### 🧑‍💻 Guilherme Barreto Santos - RM97674
@@ -27,12 +27,14 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 ```bash
 🔹 Requisitos Funcionais
 ✔️ Cadastro e consulta de regiões associadas aos dispositivos.
-✔️ Registro de alertas manualmente ou via sensores.
+✔️ Cadastro e consulta de informações a respeito dos dispositivos de monitoramento.
+✔️ Associação dos dispositivos instalados com as respectivas regiões monitoradas.
+✔️ Registro manual de alertas ou via sistêmico a partir de consulta de rota.
 ✔️ Gerenciamento de usuários com autenticação JWT.
 ✔️ Gerenciamento de dispositivos IoT vinculados às regiões.
 ✔️ Geração de relatórios sobre alertas registrados.
-✔️ Monitoramento contínuo da infraestrutura com health check.
-✔️ Proteção das rotas sensíveis com [Authorize].
+✔️ Monitoramento da infraestrutura e da conexão com a base de dados.
+✔️ Proteção das rotas que trafegam informações sensíveis.
 
 🔹 Requisitos Não Funcionais
 ✔️ Desempenho otimizado com requisições assíncronas.
@@ -71,6 +73,7 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 5️º Geração de relatórios e análise de padrões, como resumo de todos os dispositivos e alertas configurados.
 
 ```
+![Fluxograma](https://raw.githubusercontent.com/gui2604/BlackoutMonitorAPI/main/BlackoutMonitor.drawio.png)
 
 ---
 
@@ -162,21 +165,33 @@ BlackoutMonitorAPI/
 5. Acesse o Swagger UI:
 	```bash
 	https://localhost:7116/swagger
+ 	⚠️ Para realizar os testes não se esqueça de primeiro realizar o login e obter o token JWT! (instruções mais abaixo)
    ```
 
 ---
+## 🌐 Endpoints
 
-## 🔐 Autenticação JWT
 ### 📌 Endpoints públicos
-- POST /api/auth/register – Cria novo usuário
-
-- POST /api/auth/login – Retorna token JWT
-
+```bash
+- POST /api/v1/auth/register – Cria novo usuário
+- POST /api/v1/auth/login – Retorna token JWT
 - GET /api/healthcheck – Health check público
+```
 
-## 🔐 Endpoints protegidos (requer token)
-- Gerenciamento de Regiões, alertas, dispositivos e relatórios (não expostos para fins de segurança)
+### 🔐 Endpoints protegidos por autenticação JWT (requer token)
+```bash
+- GET /api/healthcheck/full - Consulta a saúde da aplicação e da conexão com o banco
 
+- POST /api/v1/alerts - Cria um novo alerta
+- GET /api/v1/report - Consulta o resumo das regioes e dos alertas atrelados
+
+- POST /api/v1/devices - Cadastra um novo dispositivo
+- GET /api/v1/by-region/{regionId} - Consulta os dispositivos instalados por regiao
+- GET /api/v1/alerts - Consulta todos os dispositivos
+- DELETE /api/v1/{id} - Deleta um dispositivo pelo seu id.
+
+- GET /api/v1/region - Obtém as informações completas do endereço de um determinado CEP. Faz a consulta em cache, caso não exise faz a consulta online no ViaCEP.
+```
 ---
 
 ## 🧪 Teste no Swagger

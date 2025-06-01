@@ -7,14 +7,9 @@ namespace BlackoutMonitorAPI.Controller
 {
     [ApiController]
     [Route("api/healthcheck")]
-    public class HealthController : ControllerBase
+    public class HealthController(ApplicationDbContext context) : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-
-        public HealthController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        private readonly ApplicationDbContext _context = context;
 
         [HttpGet]
         [AllowAnonymous]
