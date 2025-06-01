@@ -71,6 +71,7 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 5️º Geração de relatórios e análise de padrões, como resumo de todos os dispositivos e alertas configurados.
 
 ```
+![Fluxograma](BlackoutMonitor.drawio.png)
 
 ---
 
