@@ -48,8 +48,8 @@ Esses dados podem ser acessados por aplicativos móveis ou painéis administrati
 - C#
 
 ---
-```bash
 ## 🧬 Estrutura de pastas
+```bash
 BlackoutMonitorAPI/
 ├── Controller/
 │ ├── AlertsController.cs
