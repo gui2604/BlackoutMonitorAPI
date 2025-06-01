@@ -133,10 +133,10 @@ BlackoutMonitorAPI/
 - 2. Copie o token retornado
 
 - 3. Clique em Authorize no canto superior direito do Swagger
-```
 
 - Cole o token:
 - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
 
 ## 🐳 Executando com Docker
 - docker pull gui2604/blackoutmonitorapi:1.0.0
